@@ -1,0 +1,158 @@
+.layout-transparent {
+  background: #90caf9 center / cover;
+}
+
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.mdl-layout__drawer {
+  background: white;
+  color: #90caf9;
+  min-height: 450px;
+}
+
+.mdl-navigation__link {
+  color: #90caf9;
+}
+
+.mdl-dialog {
+  width: 400px;
+}
+
+.mdl-dialog__content {
+  margin: 0px auto;
+}
+
+.mdl-button--fab {
+  margin-top: 10px;
+  margin-left: 50px;
+  cursor: default;
+}
+
+.computerize {
+  margin-left: 32.8px;
+}
+
+#topPlayerContainer {
+  margin-bottom: 20px;
+}
+
+.playersText {
+  float: left;
+  margin-left: 20px;
+  color: #9E9E9E;
+}
+
+#computerContainer {
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+#computerSelect {
+  float: right;
+  margin-right: 50px;
+  margin-top: -45px;
+}
+
+#symbol-assignments {
+  position: fixed;
+  bottom: 0;
+  margin-left: 70px;
+}
+
+.link-bar {
+  pointer-events: none;
+  cursor: default;
+}
+
+.side-link {
+  display: inline-block;
+}
+
+.show-modal {
+  visibility: hidden;
+}
+
+.game {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 50px auto 0px;
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  top:0; 
+  left:0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 0;
+  visibility: hidden;
+}
+
+.game-container {
+  margin: 0px auto;
+  width: 500px;
+  height: auto;
+}
+
+.row {
+  margin: 0px auto;
+  font-size: 0;
+  height: 150px;
+  width: 470px;
+}
+
+.vertical-border {
+  display: inline-block;
+  width: 10px;
+  height: 150px;
+  background: white;
+}
+
+.top {
+  border-radius: 10px 10px 0 0;
+}
+
+.bottom {
+  border-radius: 0 0 10px 10px;
+}
+
+.horizontal-divider {
+  margin: 0px auto;
+  width: 470px;
+  height: 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+.cell {
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  font-size: 80px;
+  display: inline-block;
+  padding: 0px;
+  vertical-align: top;
+  text-align: center;
+  cursor: inherit;
+}
+
+.cell-hover {
+  background-color: orange;
+  cursor: pointer;
+}
